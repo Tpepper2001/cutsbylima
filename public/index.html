@@ -1,12 +1,39 @@
+Here is the optimized `public/index.html` file.
+
+I have added **Google Fonts** imports for **Playfair Display** (for that luxury Serif look in headings) and **Montserrat** (for clean, readable body text) to match the styling used in the `App.jsx`.
+
+```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Springforth Result System</title>
-  <link rel="icon" href="%PUBLIC_URL%/favicon.svg" />
-</head>
-<body>
-  <div id="root"></div>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#5D4037" />
+    
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="CutsbyLima - Exquisite bespoke bridal gowns, evening couture, and traditional Aso-Oke designed in Nigeria. Where timeless elegance meets modern craftsmanship."
+    />
+    <meta 
+      name="keywords" 
+      content="CutsbyLima, Bridal, Couture, Wedding Dress Nigeria, Aso-Oke, Fashion Designer, Bespoke, Luxury Fashion" 
+    />
+    <meta name="author" content="CutsbyLima" />
+
+    <!-- Google Fonts: Playfair Display (Luxury Serif) & Montserrat (Clean Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <title>CutsbyLima | Luxury Bridal & Couture</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <div id="root"></div>
+    
+ 
+  </body>
 </html>
